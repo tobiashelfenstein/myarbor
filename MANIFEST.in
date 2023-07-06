@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include myarbor *.css
+recursive-include myarbor *.csv
+recursive-include myarbor *.html
+recursive-include myarbor *.ico
+recursive-include myarbor *.js
+recursive-include myarbor *.json
+recursive-include myarbor *.md
+recursive-include myarbor *.png
+recursive-include myarbor *.py
+recursive-include myarbor *.svg
+recursive-include myarbor *.txt
+recursive-exclude myarbor *.pyc
