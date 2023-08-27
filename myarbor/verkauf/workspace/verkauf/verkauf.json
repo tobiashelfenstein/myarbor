@@ -1,21 +1,21 @@
 {
  "charts": [],
- "content": "[{\"id\":\"Zq_rziIt0v\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Stammdaten <br></b></span>\",\"col\":12}},{\"id\":\"i5e4WPcDKZ\",\"type\":\"card\",\"data\":{\"card_name\":\"Grabb\u00e4ume\",\"col\":4}}]",
- "creation": "2023-07-05 23:38:35.676946",
+ "content": "[{\"id\":\"02Eo4hg1VE\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Verkauf <br></b></span>\",\"col\":12}},{\"id\":\"SYHYmfz7vT\",\"type\":\"card\",\"data\":{\"card_name\":\"Ruhebaum verkaufen\",\"col\":4}}]",
+ "creation": "2023-07-07 09:36:43.464683",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "assets",
+ "icon": "income",
  "idx": 0,
  "is_hidden": 0,
- "label": "Stammdaten",
+ "label": "Verkauf",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Grabb\u00e4ume",
+   "label": "Ruhebaum verkaufen",
    "link_count": 1,
    "onboard": 0,
    "type": "Card Break"
@@ -23,25 +23,25 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Grabbaum",
+   "label": "Kunde",
    "link_count": 0,
-   "link_to": "Address",
+   "link_to": "Kunde",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2023-07-05 23:44:02.985992",
+ "modified": "2023-07-27 21:56:05.504302",
  "modified_by": "Administrator",
- "module": "Stammdaten",
- "name": "Stammdaten",
+ "module": "Verkauf",
+ "name": "Verkauf",
  "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 1.0,
+ "sequence_id": 2.0,
  "shortcuts": [],
- "title": "Stammdaten"
+ "title": "Verkauf"
 }
