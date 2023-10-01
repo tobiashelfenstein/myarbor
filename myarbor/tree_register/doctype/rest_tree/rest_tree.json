@@ -14,7 +14,7 @@
   "field",
   "diameter",
   "category",
-  "grave",
+  "grave"
  ],
  "fields": [
   {
@@ -51,7 +51,7 @@
    "fieldname": "grave",
    "fieldtype": "Int",
    "label": "Grave"
-  },
+  }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
