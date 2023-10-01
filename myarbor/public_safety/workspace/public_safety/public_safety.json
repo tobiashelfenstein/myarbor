@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"FJ9oK1dEVV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Verkehrssicherung <br></b></span>\",\"col\":12}}]",
+ "content": "[{\"id\":\"FJ9oK1dEVV\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Public Safety<br></b></span>\",\"col\":12}}]",
  "creation": "2023-07-07 09:09:52.678834",
  "custom_blocks": [],
  "docstatus": 0,
@@ -10,12 +10,12 @@
  "icon": "permission",
  "idx": 0,
  "is_hidden": 0,
- "label": "Verkehrssicherung",
+ "label": "Public Safety",
  "links": [],
  "modified": "2023-09-17 13:17:14.850118",
  "modified_by": "Administrator",
- "module": "Verkehrssicherung",
- "name": "Verkehrssicherung",
+ "module": "Public Safety",
+ "name": "Public Safety",
  "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
@@ -24,5 +24,5 @@
  "roles": [],
  "sequence_id": 3.0,
  "shortcuts": [],
- "title": "Verkehrssicherung"
+ "title": "Public Safety"
 }

@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"60mUANkEcU\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Master data<br></b></span>\",\"col\":12}},{\"id\":\"kUopedo2cj\",\"type\":\"card\",\"data\":{\"card_name\":\"Address data\",\"col\":4}}]",
+ "content": "[{\"id\":\"60mUANkEcU\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Master Data<br></b></span>\",\"col\":12}},{\"id\":\"kUopedo2cj\",\"type\":\"card\",\"data\":{\"card_name\":\"Address Data\",\"col\":4}}]",
  "creation": "2023-09-17 13:16:16.831173",
  "custom_blocks": [],
  "docstatus": 0,
@@ -10,12 +10,12 @@
  "icon": "table_2",
  "idx": 1,
  "is_hidden": 0,
- "label": "Master data",
+ "label": "Master Data",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Address data",
+   "label": "Address Data",
    "link_count": 1,
    "onboard": 0,
    "type": "Card Break"
@@ -33,8 +33,8 @@
  ],
  "modified": "2023-10-01 17:36:26.291504",
  "modified_by": "Administrator",
- "module": "Master data",
- "name": "Master data",
+ "module": "Master Data",
+ "name": "Master Data",
  "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
@@ -43,5 +43,5 @@
  "roles": [],
  "sequence_id": 4.0,
  "shortcuts": [],
- "title": "Master data"
+ "title": "Master Data"
 }
