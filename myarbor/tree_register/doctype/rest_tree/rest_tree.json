@@ -2,74 +2,64 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
- "autoname": "format:Ruhebaum {baumnummer}",
+ "autoname": "format:Rest Tree {tree_number}",
  "creation": "2023-07-06 22:20:31.818960",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "baumnummer",
-  "baumart",
-  "feld",
-  "durchmesser",
-  "kategorie",
-  "ruhepl\u00e4tze",
-  "amended_from"
+  "tree_number",
+  "tree_species",
+  "field",
+  "diameter",
+  "category",
+  "grave",
  ],
  "fields": [
   {
-   "fieldname": "baumnummer",
+   "fieldname": "tree_number",
    "fieldtype": "Int",
    "in_list_view": 1,
-   "label": "Baumnummer",
+   "label": "Tree Number",
    "reqd": 1
   },
   {
-   "fieldname": "baumart",
+   "fieldname": "tree_species",
    "fieldtype": "Link",
-   "label": "Baumart",
-   "options": "Baumart"
+   "label": "Tree Species",
+   "options": "Tree Species"
   },
   {
-   "fieldname": "feld",
+   "fieldname": "field",
    "fieldtype": "Link",
-   "label": "Feld",
-   "options": "Feld"
+   "label": "Field",
+   "options": "Field"
   },
   {
-   "fieldname": "durchmesser",
+   "fieldname": "diameter",
    "fieldtype": "Int",
-   "label": "Durchmesser"
+   "label": "Diameter"
   },
   {
-   "fieldname": "kategorie",
+   "fieldname": "category",
    "fieldtype": "Link",
-   "label": "Kategorie",
-   "options": "Kategorie"
+   "label": "Category",
+   "options": "Category"
   },
   {
-   "fieldname": "ruhepl\u00e4tze",
+   "fieldname": "grave",
    "fieldtype": "Int",
-   "label": "Ruhepl\u00e4tze"
+   "label": "Grave"
   },
-  {
-   "fieldname": "amended_from",
-   "fieldtype": "Link",
-   "label": "Amended From",
-   "no_copy": 1,
-   "options": "Ruhebaum",
-   "print_hide": 1,
-   "read_only": 1
-  }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
  "modified": "2023-07-27 21:50:40.154887",
  "modified_by": "Administrator",
- "module": "Baumkataster",
- "name": "Ruhebaum",
+ "module": "Tree Register",
+ "name": "Rest Tree",
  "naming_rule": "Expression",
  "owner": "Administrator",
  "permissions": [

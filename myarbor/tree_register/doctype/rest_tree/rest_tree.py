@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class Kategorie(Document):
+class RestTree(Document):
 	pass

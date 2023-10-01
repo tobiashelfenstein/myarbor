@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestBaumart(FrappeTestCase):
+class TestCategory(FrappeTestCase):
 	pass

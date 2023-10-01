@@ -5,5 +5,5 @@
 from frappe.tests.utils import FrappeTestCase
 
 
-class TestRuhebaum(FrappeTestCase):
+class TestField(FrappeTestCase):
 	pass

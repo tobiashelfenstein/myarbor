@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class Feld(Document):
+class Field(Document):
 	pass

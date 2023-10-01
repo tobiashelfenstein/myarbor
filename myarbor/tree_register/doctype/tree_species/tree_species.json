@@ -1,0 +1,56 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:tree_species",
+ "creation": "2023-07-06 22:00:39.747181",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tree_species",
+  "tree_species_color"
+ ],
+ "fields": [
+  {
+   "fieldname": "tree_species",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Tree Species",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "tree_species_color",
+   "fieldtype": "Color",
+   "label": "Color of Tree Species"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-07-06 22:01:56.256920",
+ "modified_by": "Administrator",
+ "module": "Tree Register",
+ "name": "Tree Species",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

@@ -1,37 +1,44 @@
 {
  "actions": [],
  "allow_rename": 1,
- "autoname": "field:baumart",
- "creation": "2023-07-06 22:00:39.747181",
+ "autoname": "field:field_name",
+ "creation": "2023-07-06 21:52:30.202759",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "baumart",
-  "baumartfarbe"
+  "field_number",
+  "field_name",
+  "field_color"
  ],
  "fields": [
   {
-   "fieldname": "baumart",
-   "fieldtype": "Data",
+   "fieldname": "field_number",
+   "fieldtype": "Int",
    "in_list_view": 1,
-   "label": "Baumart",
+   "label": "Field Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "field_name",
+   "fieldtype": "Data",
+   "label": "Field Name",
    "reqd": 1,
    "unique": 1
   },
   {
-   "fieldname": "baumartfarbe",
+   "fieldname": "field_color",
    "fieldtype": "Color",
-   "label": "Farbe der Baumart"
+   "label": "Field Color"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-07-06 22:01:56.256920",
+ "modified": "2023-07-06 22:11:04.479652",
  "modified_by": "Administrator",
- "module": "Baumkataster",
- "name": "Baumart",
+ "module": "Tree Register",
+ "name": "Field",
  "naming_rule": "By fieldname",
  "owner": "Administrator",
  "permissions": [

@@ -1,6 +1,5 @@
 myArbor
-Baumkataster
+Tree Register
 Public Safety
-Ruheplatz
 Selling
 Master Data

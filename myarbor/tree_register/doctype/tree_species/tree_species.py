@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class Ruhebaum(Document):
+class TreeSpecies(Document):
 	pass

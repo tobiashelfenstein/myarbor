@@ -5,5 +5,5 @@
 from frappe.model.document import Document
 
 
-class Baumart(Document):
+class Category(Document):
 	pass
