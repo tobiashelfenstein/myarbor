@@ -1,21 +1,21 @@
 {
  "charts": [],
- "content": "[{\"id\":\"02Eo4hg1VE\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Verkauf <br></b></span>\",\"col\":12}},{\"id\":\"SYHYmfz7vT\",\"type\":\"card\",\"data\":{\"card_name\":\"Ruhebaum verkaufen\",\"col\":4}}]",
- "creation": "2023-07-07 09:36:43.464683",
+ "content": "[{\"id\":\"60mUANkEcU\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Master data<br></b></span>\",\"col\":12}},{\"id\":\"kUopedo2cj\",\"type\":\"card\",\"data\":{\"card_name\":\"Address data\",\"col\":4}}]",
+ "creation": "2023-09-17 13:16:16.831173",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "income",
- "idx": 0,
+ "icon": "table_2",
+ "idx": 1,
  "is_hidden": 0,
- "label": "Verkauf",
+ "label": "Master data",
  "links": [
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Ruhebaum verkaufen",
+   "label": "Address data",
    "link_count": 1,
    "onboard": 0,
    "type": "Card Break"
@@ -23,7 +23,7 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Customer",
+   "label": "Costumer",
    "link_count": 0,
    "link_to": "Customer",
    "link_type": "DocType",
@@ -31,17 +31,17 @@
    "type": "Link"
   }
  ],
- "modified": "2023-10-01 19:29:46.821298",
+ "modified": "2023-10-01 17:36:26.291504",
  "modified_by": "Administrator",
- "module": "Verkauf",
- "name": "Verkauf",
+ "module": "Master data",
+ "name": "Master data",
  "number_cards": [],
  "owner": "Administrator",
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 2.0,
+ "sequence_id": 4.0,
  "shortcuts": [],
- "title": "Verkauf"
+ "title": "Master data"
 }
