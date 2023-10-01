@@ -2,5 +2,5 @@ myArbor
 Baumkataster
 Public Safety
 Ruheplatz
-Verkauf
+Selling
 Master Data
