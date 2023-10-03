@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-10-02 20:45:07.616724",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "rest_tree",
+  "gravesite_number",
+  "sold"
+ ],
+ "fields": [
+  {
+   "fieldname": "gravesite_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Gravesite Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rest_tree",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Rest Tree",
+   "options": "Rest Tree",
+   "reqd": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "sold",
+   "fieldtype": "Check",
+   "label": "Sold"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-03 08:43:30.740778",
+ "modified_by": "Administrator",
+ "module": "Tree Register",
+ "name": "Gravesite",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
