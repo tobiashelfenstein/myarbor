@@ -1,0 +1,62 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "field:tree_type",
+ "creation": "2023-10-05 20:54:58.346136",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "tree_type",
+  "category_required",
+  "category_automatic"
+ ],
+ "fields": [
+  {
+   "fieldname": "tree_type",
+   "fieldtype": "Data",
+   "label": "Tree Type",
+   "unique": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "category_required",
+   "fieldtype": "Check",
+   "label": "Category required"
+  },
+  {
+   "default": "0",
+   "depends_on": "eval:doc.category_required==true;",
+   "fieldname": "category_automatic",
+   "fieldtype": "Check",
+   "label": "Select Categorie automatically"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2023-10-07 22:14:47.567883",
+ "modified_by": "Administrator",
+ "module": "Tree Register",
+ "name": "Tree Type",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "tree_type"
+}

@@ -8,15 +8,15 @@
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
+  "detail_type_tab",
   "tree_name",
   "tree_number",
   "tree_species",
   "field",
   "diameter",
-  "category",
+  "tree_type",
   "gravesites_count",
-  "tab_break_1",
-  "headline1",
+  "gravesites_tab",
   "gravesite1",
   "gravesite2",
   "gravesite3",
@@ -29,8 +29,10 @@
   "gravesite10",
   "gravesite11",
   "gravesite12",
-  "tab_break_2",
-  "cord"
+  "location_tab",
+  "x_value",
+  "y_value",
+  "location"
  ],
  "fields": [
   {
@@ -44,7 +46,8 @@
    "fieldname": "tree_species",
    "fieldtype": "Link",
    "label": "Tree Species",
-   "options": "Tree Species"
+   "options": "Tree Species",
+   "reqd": 1
   },
   {
    "fieldname": "field",
@@ -56,12 +59,6 @@
    "fieldname": "diameter",
    "fieldtype": "Int",
    "label": "Diameter"
-  },
-  {
-   "fieldname": "category",
-   "fieldtype": "Link",
-   "label": "Category",
-   "options": "Category"
   },
   {
    "fieldname": "gravesites_count",
@@ -154,16 +151,6 @@
    "reqd": 1
   },
   {
-   "fieldname": "headline1",
-   "fieldtype": "Heading",
-   "label": "Select Gravesites"
-  },
-  {
-   "fieldname": "tab_break_1",
-   "fieldtype": "Tab Break",
-   "label": "Gravesites"
-  },
-  {
    "fieldname": "tree_name",
    "fieldtype": "Data",
    "hidden": 1,
@@ -171,19 +158,51 @@
    "read_only": 1
   },
   {
-   "fieldname": "tab_break_2",
-   "fieldtype": "Tab Break"
+   "fieldname": "x_value",
+   "fieldtype": "Float",
+   "label": "X-Value"
   },
   {
-   "fieldname": "cord",
+   "fieldname": "y_value",
+   "fieldtype": "Float",
+   "label": "Y-Value"
+  },
+  {
+   "fieldname": "location",
    "fieldtype": "Geolocation",
-   "label": "cord"
+   "label": "Location",
+   "read_only": 1
+  },
+  {
+   "fieldname": "tree_type",
+   "fieldtype": "Link",
+   "label": "Tree Type",
+   "options": "Tree Type",
+   "reqd": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "gravesites_tab",
+   "fieldtype": "Tab Break",
+   "label": "Gravesites"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "location_tab",
+   "fieldtype": "Tab Break",
+   "label": "Location"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "detail_type_tab",
+   "fieldtype": "Tab Break",
+   "label": "Detail and Type"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-03 08:43:21.134367",
+ "modified": "2023-12-30 11:55:32.640226",
  "modified_by": "Administrator",
  "module": "Tree Register",
  "name": "Rest Tree",

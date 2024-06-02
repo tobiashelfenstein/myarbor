@@ -7,7 +7,8 @@
  "field_order": [
   "rest_tree",
   "gravesite_number",
-  "sold"
+  "sold",
+  "reserved"
  ],
  "fields": [
   {
@@ -31,11 +32,17 @@
    "fieldname": "sold",
    "fieldtype": "Check",
    "label": "Sold"
+  },
+  {
+   "default": "0",
+   "fieldname": "reserved",
+   "fieldtype": "Check",
+   "label": "Reserved"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-10-03 08:43:30.740778",
+ "modified": "2023-10-03 14:25:38.796147",
  "modified_by": "Administrator",
  "module": "Tree Register",
  "name": "Gravesite",

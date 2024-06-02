@@ -16,22 +16,32 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Sell Rest Tree",
-   "link_count": 1,
+   "link_count": 2,
    "onboard": 0,
    "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Customer",
+   "label": "Kunde",
    "link_count": 0,
    "link_to": "Customer",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Category",
+   "link_count": 0,
+   "link_to": "Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-10-01 19:29:46.821298",
+ "modified": "2023-12-30 12:05:04.933978",
  "modified_by": "Administrator",
  "module": "Selling",
  "name": "Selling",
