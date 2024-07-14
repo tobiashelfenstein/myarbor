@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="author.svg">resources/icons/author.svg</file>
+        <file alias="client.svg">resources/icons/client.svg</file>
+        <file alias="color-management.svg">resources/icons/color-management.svg</file>
+        <file alias="home.svg">resources/icons/home.svg</file>
+        <file alias="rosegarden.svg">resources/icons/rosegarden.svg</file>
+        <file alias="arrow-right.ico">resources/icons/arrow-29-48.ico</file>
+        <file alias="arrow-down.ico">resources/icons/arrow-208-32.ico</file>
+    </qresource>
+</RCC>
