@@ -2,12 +2,12 @@
 {
     text-align: left;
     border: 0;
-    padding-left: 40px;
+/*    padding-left: 40px;*/
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.SideMenuButton QLabel:hover, .SideMenuButton QPushButton:hover, .SideMenuButton:hover
+.SideMenuButton QLabel:hover, .SideMenuButton QPushButton:hover, .SideMenuButton QHBoxLayout:hover
 {
     background-color: #42886e;
 }

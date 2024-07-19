@@ -10,11 +10,13 @@ CONFIG += c++17
 
 SOURCES += \
     SideMenuButton.cpp \
+    SideSubMenu.cpp \
     main.cpp \
     mainwindow.cpp
 
 HEADERS += \
     SideMenuButton.h \
+    SideSubMenu.h \
     mainwindow.h
 
 # Default rules for deployment.

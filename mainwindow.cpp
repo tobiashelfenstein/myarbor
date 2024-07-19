@@ -26,9 +26,13 @@ void MainWindow::setupUi()
     setMinimumHeight(600);
 
     QPixmap testIcon = QPixmap(":/icons/color-management.svg");
+    QPixmap testIcon2 = QPixmap(":/icons/client.svg");
 
     SideMenuButton *pTestBtn = new SideMenuButton(testIcon, "Hello, World");
-    pTestBtn->setSubMenu(true);
+    //pTestBtn->setSubMenu(true);
+
+    SideMenuButton *pButtonNeu = new SideMenuButton(testIcon2, "Submenu");
+    pTestBtn->addSubMenuButton(pButtonNeu);
 
     QWidget *pSideMenuWidget = new QWidget();
     pSideMenuWidget->setMaximumWidth(300);
